@@ -33,6 +33,14 @@
         this.Model = newModel;
         updateCar(newModel);
       },
+    updateTransmission: function (newTransmission) {
+        this.Transmission = newTransmission;
+        updateCar(newTransmission);
+      },
+    updateDriveMode: function (newDriveMode) {
+        this.DriveMode = newDriveMode;
+        updateCar(newDriveMode);
+      },
   };
 
   const markup = (car) => {
